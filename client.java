@@ -14,9 +14,9 @@ public class client{
 		String str;
 		while((str=SocketRead.readLine())!=null){
 			System.out.println(str);
-			pwrite.close();
-			SocketRead.close();
-			keyRead.close();
+			// pwrite.close();
+			// SocketRead.close();
+			// keyRead.close();
 		}
 	}
 }
