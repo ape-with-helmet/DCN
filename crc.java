@@ -32,4 +32,9 @@ public class crc {
         }
         recieve(sent_Data,divisor);
     }
+    static int[] divide (int old_data, int divisor){
+        int remainder[],i;
+        int data[]=new int[old_data.length+divisor.length];
+        return remainder;
+    }
 }
